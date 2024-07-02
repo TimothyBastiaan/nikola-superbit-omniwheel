@@ -43,16 +43,16 @@ namespace NikolaOmniwheel {
             SuperBit.MotorRun(SuperBit.enMotors.M4, -1 * speed);
         }
         else if (command == Movement.Left) {
+            SuperBit.MotorRun(SuperBit.enMotors.M1, -1 * speed);
+            SuperBit.MotorRun(SuperBit.enMotors.M2, -1 * speed);
+            SuperBit.MotorRun(SuperBit.enMotors.M3,  speed);
+            SuperBit.MotorRun(SuperBit.enMotors.M4,  speed);
+        }
+        else if (command == Movement.Right) {
             SuperBit.MotorRun(SuperBit.enMotors.M1, speed);
             SuperBit.MotorRun(SuperBit.enMotors.M2, speed);
             SuperBit.MotorRun(SuperBit.enMotors.M3, -1 * speed);
             SuperBit.MotorRun(SuperBit.enMotors.M4, -1 * speed);
-        }
-        else if (command == Movement.Right) {
-            SuperBit.MotorRun(SuperBit.enMotors.M1, -1 * speed);
-            SuperBit.MotorRun(SuperBit.enMotors.M2, -1 * speed);
-            SuperBit.MotorRun(SuperBit.enMotors.M3, speed);
-            SuperBit.MotorRun(SuperBit.enMotors.M4, speed);
         }
         else if (command == Movement.CLeft) {
             SuperBit.MotorRun(SuperBit.enMotors.M1, -1 * speed);
