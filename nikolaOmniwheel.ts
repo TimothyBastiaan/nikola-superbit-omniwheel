@@ -69,8 +69,10 @@ namespace NikolaOmniwheel {
     }
 
     /**
-     * @param command car movement, eg: Movement.Forward
-     * @param speed speed value, eg: 0
+     * @param speed1 motor1 speed, eg:0
+     * @param speed2 motor2 speed, eg:0
+     * @param speed3 motor3 speed, eg:0
+     * @param speed4 motor4 speed, eg:0
      */
     //% blockId="nikola omniwheel individual" block="Omniwheel move m1 %speed1 m2 %speed2 m3 %speed3 m4 %speed4"
     //% weight=91 blockGap=8
